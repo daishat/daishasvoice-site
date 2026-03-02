@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1d 0%, #2d2d30 100%);
+  color: #f4f1ea;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #f4f1ea;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 24px 60px;
+  min-height: calc(100vh - 80px);
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 80px 16px 40px;
+  }
+}
