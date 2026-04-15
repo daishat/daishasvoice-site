@@ -36,7 +36,7 @@ const Demos = () => {
                 filter: 'sepia(20%) saturate(70%) hue-rotate(25deg)',
               }}
             >
-              <source src="https://customer-assets.emergentagent.com/job_daisha-books/artifacts/p40qrhvj_D%27Aisha%20Tolbert%20C3.mp3" type="audio/mpeg" />
+              <source src="/commercial-demo.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
 
