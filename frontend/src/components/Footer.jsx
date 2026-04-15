@@ -46,11 +46,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-[#f4f1ea]">Connect</h4>
             <div className="space-y-3">
               <a
-                href="mailto:hello@daishavoice.com"
+                href="daishasvoice@outlook.com"
                 className="flex items-center space-x-2 text-sm text-[#c9c9c9] hover:text-[#d4af37] transition-colors duration-300"
               >
                 <Mail className="w-4 h-4" />
-                <span>hello@daishavoice.com</span>
+                <span>daishasvoice@outlook.com</span>
               </a>
               <div className="flex items-center space-x-4 pt-2">
                 <a
