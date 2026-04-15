@@ -73,8 +73,7 @@ const Contact = () => {
                 
                 <div className="space-y-4">
                   <a
-                    href="mailto:daishasvoice@outlook.com
-                    ?subject=Voice Acting Inquiry"
+                    href="mailto:daishasvoice@outlook.com ?subject=Voice Acting Inquiry"
                     className="flex items-center space-x-3 text-[#c9c9c9] hover:text-[#d4af37] transition-colors duration-300 group"
                   >
                     <div className="bg-[#d4af37]/10 p-3 rounded-lg group-hover:bg-[#d4af37]/20 transition-colors duration-300">
