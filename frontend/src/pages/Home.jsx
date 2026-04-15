@@ -33,11 +33,11 @@ const Home = () => {
               <p className="text-sm text-[#d4af37] font-semibold uppercase tracking-wide">Get In Touch</p>
               <div className="space-y-2">
                 <a
-                  href="mailto:hello@daishavoice.com"
+                  href="mailto:daishasvoice@outlook.com"
                   className="flex items-center justify-center lg:justify-start space-x-3 text-lg text-[#f4f1ea] hover:text-[#d4af37] transition-colors duration-300 group"
                 >
                   <Mail className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                  <span className="font-medium">hello@daishavoice.com</span>
+                  <span className="font-medium">daishasvoice@outlook.com</span>
                 </a>
                 <p className="text-xs text-[#999] text-center lg:text-left lg:pl-8">
                   Response within 24–48 hours
@@ -137,7 +137,7 @@ const Home = () => {
                 filter: 'sepia(20%) saturate(70%) hue-rotate(25deg)',
               }}
             >
-              <source src="https://customer-assets.emergentagent.com/job_daisha-books/artifacts/p40qrhvj_D%27Aisha%20Tolbert%20C3.mp3" type="audio/mpeg" />
+              <source src="https://customer-assets.emergentagent.com/job_daisha-books/artifacts/p40qrhvj_DAisha%20Tolbert%20C3.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </Card>
