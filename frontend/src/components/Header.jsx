@@ -48,11 +48,11 @@ const Header = () => {
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
-              href="mailto:hello@daishavoice.com"
+              href="mailto:daishasvoice@outlook.com"
               className="flex items-center space-x-2 text-sm text-[#f4f1ea] hover:text-[#d4af37] transition-colors duration-300"
             >
               <Mail className="w-4 h-4" />
-              <span>hello@daishavoice.com</span>
+              <span>daishasvoice@outlook.com</span>
             </a>
             <PhoneReveal iconOnly={true} />
           </div>
@@ -83,11 +83,11 @@ const Header = () => {
               </Link>
             ))}
             <a
-              href="mailto:hello@daishavoice.com"
+              href="mailto:daishasvoice@outlook.com"
               className="flex items-center space-x-2 py-2 text-base text-[#f4f1ea] hover:text-[#d4af37] transition-colors duration-300"
             >
               <Mail className="w-4 h-4" />
-              <span>hello@daishavoice.com</span>
+              <span>daishasvoice@outlook.com</span>
             </a>
             <div className="py-2">
               <PhoneReveal iconOnly={true} />
