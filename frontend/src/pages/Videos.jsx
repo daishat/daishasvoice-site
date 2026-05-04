@@ -16,12 +16,13 @@ const Videos = () => {
       category: 'Commercial'
     },
     {
-      id: 2,
-      title: 'Animation Voice Acting Demo',
-      description: 'Character voices and animation samples',
-      thumbnail: 'https://via.placeholder.com/400x225/2d2d30/d4af37?text=Animation+Demo',
-      videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_2', // Replace with your video
-      category: 'Animation'
+  id: 2,
+  title: 'Amy — Night Shift Worker',
+  description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
+  thumbnail: '/videos/amy-thumbnail.jpg',
+  videoUrl: 'https://www.tiktok.com/embed/v2/7636142104518954271',
+  category: 'Character'
+},
     },
     {
       id: 3,
