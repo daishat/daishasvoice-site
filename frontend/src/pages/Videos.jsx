@@ -19,7 +19,7 @@ const Videos = () => {
   id: 2,
   title: 'Amy — Night Shift Worker',
 description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
-thumbnail: '/videos/amy-thumbnail.jpg',
+thumbnail: 'https://via.placeholder.com/400x225/2d2d30/d4af37?text=Amy+Night+Shift',
 videoUrl: '/videos/amy-night-worker.mp4',
 category: 'Character'
     },
@@ -77,9 +77,11 @@ category: 'Character'
                 <p className="text-sm text-[#c9c9c9]">
                   {video.description}
                 </p>
-               <video
+              <video
   controls
-  className="w-full rounded-lg mt-4"
+  playsInline
+  preload="metadata"
+  className="w-full h-64 rounded-lg mt-4 bg-black object-contain"
 >
   <source src={video.videoUrl} type="video/mp4" />
   Your browser does not support the video tag.
