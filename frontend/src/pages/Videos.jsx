@@ -22,7 +22,6 @@ const Videos = () => {
   thumbnail: '/videos/amy-thumbnail.jpg',
   videoUrl: '/videos/amy-night-worker.mp4',
   category: 'Character'
-},
     },
     {
       id: 3,
