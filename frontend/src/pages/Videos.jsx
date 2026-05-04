@@ -77,16 +77,13 @@ category: 'Character'
                 <p className="text-sm text-[#c9c9c9]">
                   {video.description}
                 </p>
-                <button
-                  onClick={() => {
-                    // Open video in modal or new tab
-                    window.open(video.videoUrl, '_blank');
-                  }}
-                  className="flex items-center space-x-2 text-[#d4af37] hover:text-[#c9a961] transition-colors duration-300 text-sm font-medium"
-                >
-                  <Play className="w-4 h-4" />
-                  <span>Watch Video</span>
-                </button>
+               <video
+  controls
+  className="w-full rounded-lg mt-4"
+>
+  <source src={video.videoUrl} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
               </div>
             </Card>
           ))}
