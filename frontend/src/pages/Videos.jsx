@@ -18,10 +18,10 @@ const Videos = () => {
     {
   id: 2,
   title: 'Amy — Night Shift Worker',
-  description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
-  thumbnail: '/videos/amy-thumbnail.jpg',
-  videoUrl: '/videos/amy-night-worker.mp4',
-  category: 'Character'
+description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
+thumbnail: '/videos/amy-thumbnail.jpg',
+videoUrl: '/videos/amy-night-worker.mp4',
+category: 'Character'
     },
     {
       id: 3,
