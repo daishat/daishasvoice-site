@@ -54,17 +54,24 @@ category: 'Character'
             <Card key={video.id} className="bg-[#2d2d30] border-[#d4af37]/30 overflow-hidden group hover:border-[#d4af37] transition-all duration-300">
               {/* Video Thumbnail */}
               <div className="relative aspect-video bg-[#1a1a1d] overflow-hidden">
-                <img
-                  src={video.thumbnail}
-                  alt={video.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="bg-[#d4af37] p-4 rounded-full">
-                    <Play className="w-6 h-6 text-[#1a1a1d]" />
-                  </div>
-                </div>
-              </div>
+  {video.videoUrl.endsWith('.mp4') ? (
+    <video
+      controls
+      playsInline
+      preload="metadata"
+      className="w-full h-full bg-black object-contain"
+    >
+      <source src={video.videoUrl} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  ) : (
+    <img
+      src={video.thumbnail}
+      alt={video.title}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+  )}
+</div>
 
               {/* Video Info */}
               <div className="p-6 space-y-3">
@@ -77,15 +84,6 @@ category: 'Character'
                 <p className="text-sm text-[#c9c9c9]">
                   {video.description}
                 </p>
-              <video
-  controls
-  playsInline
-  preload="metadata"
-  className="w-full h-64 rounded-lg mt-4 bg-black object-contain"
->
-  <source src={video.videoUrl} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
               </div>
             </Card>
           ))}
