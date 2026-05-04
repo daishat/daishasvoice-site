@@ -20,7 +20,7 @@ const Videos = () => {
   title: 'Amy — Night Shift Worker',
   description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
   thumbnail: '/videos/amy-thumbnail.jpg',
-  videoUrl: 'https://www.tiktok.com/embed/v2/7636142104518954271',
+  videoUrl: '/videos/amy-night-worker.mp4',
   category: 'Character'
 },
     },
