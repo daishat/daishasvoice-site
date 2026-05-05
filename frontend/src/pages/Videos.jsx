@@ -60,7 +60,7 @@ const Videos = () => {
   playsInline
   preload="metadata"
   poster={video.thumbnail}
-  className="w-full h-full bg-black object-contain"
+className="w-full h-64 bg-black object-cover"
 >
   <source src={video.videoUrl} type="video/mp4" />
 </video>
