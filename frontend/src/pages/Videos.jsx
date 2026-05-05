@@ -15,14 +15,14 @@ const Videos = () => {
       videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_1', // Replace with your video
       category: 'Commercial'
     },
-    {
+   {
   id: 2,
   title: 'Amy — Night Shift Worker',
-description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
-thumbnail: 'https://via.placeholder.com/400x225/2d2d30/d4af37?text=Amy+Night+Shift',
-videoUrl: '/videos/amy-night-worker.mp4',
-category: 'Character'
-    },
+  description: 'A suspenseful character scene featuring a nervous night shift worker who notices something off.',
+  thumbnail: '/videos/amy-thumbnail.jpg',
+  videoUrl: '/videos/amy-night-worker.mp4',
+  category: 'Character'
+},
     {
       id: 3,
       title: 'Behind the Scenes',
@@ -55,15 +55,15 @@ category: 'Character'
               {/* Video Thumbnail */}
               <div className="relative aspect-video bg-[#1a1a1d] overflow-hidden">
   {video.videoUrl.endsWith('.mp4') ? (
-    <video
-      controls
-      playsInline
-      preload="metadata"
-      className="w-full h-full bg-black object-contain"
-    >
-      <source src={video.videoUrl} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+   <video
+  controls
+  playsInline
+  preload="metadata"
+  poster={video.thumbnail}
+  className="w-full h-full bg-black object-contain"
+>
+  <source src={video.videoUrl} type="video/mp4" />
+</video>
   ) : (
     <img
       src={video.thumbnail}
