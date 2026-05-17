@@ -68,17 +68,16 @@ const Demos = () => {
           </div>
 
           <Card className="bg-[#2d2d30] border-[#c9a961]/30 p-8 space-y-4">
-            <div className="text-center py-12 space-y-4">
-              <div className="inline-block bg-[#d4af37]/10 p-6 rounded-full">
-                <Mic2 className="w-12 h-12 text-[#d4af37]" />
-              </div>
-              <p className="text-lg text-[#c9c9c9]">
-                Animation demo coming soon!
-              </p>
-              <p className="text-sm text-[#999] max-w-md mx-auto">
-                Currently recording character work showcasing dynamic range, emotional versatility, and expressive storytelling perfect for animated projects.
-              </p>
-            </div>
+            <div className="space-y-4">
+  <audio controls className="w-full">
+    <source src="/videos/animation-demo.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <p className="text-sm text-[#999] max-w-md mx-auto">
+    Dynamic character performances showcasing emotional range, versatility, and expressive storytelling for animation and video game projects.
+  </p>
+</div>
 
             <div className="pt-4 space-y-3">
               <p className="text-[#c9c9c9] leading-relaxed">
